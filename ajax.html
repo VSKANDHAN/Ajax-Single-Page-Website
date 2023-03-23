@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajax</title>
+    <style>
+        #nav{
+            display: flex;
+            justify-content: space-evenly;
+            list-style: none;
+            
+        }
+       #nav li{
+            background-color: green;
+            border-radius: 4px;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            margin: 20px;
+            font-size: 16px;
+        }
+        #container{
+            background-color:white;
+            border-radius: 6px;
+            width: 60%;
+            margin: auto;
+            height:auto;
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        #content{
+            padding: 10px;
+        }
+       p{
+        color: green;
+       }
+       h1{
+        text-align: center;
+       }
+       #note{
+        color:crimson;
+       }
+       body{
+        background-color: rgb(255, 216, 99);
+       }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul id="nav">
+                <li><a href="home.html">Home</a>
+                </li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="container">
+            
+        </section>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>    
+
+    <script src="ajax.js"></script>
+</body>
+</html>
