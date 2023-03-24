@@ -15,6 +15,8 @@
 // })
 $('ul a').on('click',function(e){
     e.preventDefault()
-    let $url=this.href;
-    $('#container').load($url+' #content');
+    let $url=this.href+' #content';
+    $('#container').load($url).hide().fadeIn(600);
+    // history.pushState('','',$url);
+
 })
